@@ -57,14 +57,12 @@ class Products extends StatelessWidget {
                                 Container(
                                   decoration: BoxDecoration(
                                       shape: BoxShape.circle,
-                                      border: Border.all(color: AppColor.Black),
-                                      color: AppColor.Black),
-                                  child: CircleAvatar(
-                                    radius: 20,
-                                    backgroundColor: AppColor.white,
-                                    child: IconButton(
-                                        onPressed: () {},
-                                        icon: Icon(Icons.close)),
+                                      border: Border.all(
+                                          width: 2, color: Colors.black)),
+                                  child: IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(Icons.close),
+                                    iconSize: 15,
                                   ),
                                 )
                               ],
